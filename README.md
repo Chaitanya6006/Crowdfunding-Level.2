@@ -1,29 +1,71 @@
-# Soroban Project
+# 🚀 Crowdfunding DApp (Soroban + Stellar Testnet)
 
-## Project Structure
+A simple Level-2 Crowdfunding decentralized application built using
+Soroban smart contracts and React frontend.
 
-This repository uses the recommended structure for a Soroban project:
+This project is made only as an academic / learning project.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+---
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. I've created a premium Next.js frontend in the [frontend](file:///c:/Users/Admin/Desktop/crowdfunding-contract.2.fr/frontend) directory.
-- You can run the frontend from this root directory using `npm run dev`.
+## ✨ Features
 
-## Frontend Setup
+- Freighter wallet connect
+- Donate to campaign
+- Multiple donors supported
+- Refund available
+- Total donation display
+- Deployed on Stellar Testnet
+- Clean React frontend
 
-1.  **Install dependencies** (if not done): `npm install --prefix frontend`
-2.  **Start development server**: `npm run dev`
-3.  **Visit**: `http://localhost:3000`
+⚠️ Important:
+This project only stores balances inside the smart contract.
+It DOES NOT transfer real XLM from wallet.
+
+---
+
+## 🛠 Tech Stack
+
+- Rust (Soroban Smart Contract)
+- Stellar Testnet
+- React + Vite
+- Freighter Wallet
+
+---
+
+## 📸 Screenshots
+
+### Wallet Connected
+
+![Wallet Connected](<img width="1887" height="981" alt="image" src="https://github.com/user-attachments/assets/73bec882-6b3d-4ab4-aa2a-ec22a66d3974" />
+)
+
+### Donate Screen
+
+![Donate](<img width="1867" height="943" alt="image" src="https://github.com/user-attachments/assets/1828177a-c149-4edc-94e8-889ccf0d82e3" />
+)
+
+### Total Donation
+
+![Total Donation](<img width="1866" height="882" alt="image" src="https://github.com/user-attachments/assets/cbeba115-67ad-4e83-923c-8b2ef0e15364" />
+)
+
+---
+
+## 📄 Smart Contract Functions
+
+- initialize(goal, creator)
+- donate(donor, amount)
+- refund(donor)
+- get_total()
+
+---
+
+## 🌍 Network
+
+- Stellar Testnet
+- Soroban Smart Contract
+
+## 👤 Author
+
+Chaitanya Chaudhari  
+Project – Crowdfunding DApp using Soroban
