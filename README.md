@@ -1,4 +1,4 @@
-<img width="1899" height="940" alt="Screenshot 2026-03-02 194407" src="https://github.com/user-attachments/assets/4159119f-39f1-44bb-892f-6ba719f70da5" /># 🚀 Crowdfunding DApp (Soroban + Stellar Testnet)
+# 🚀 Crowdfunding DApp (Soroban + Stellar Testnet)
 
 A simple Level-2 Crowdfunding decentralized application built using
 Soroban smart contracts and React frontend.
